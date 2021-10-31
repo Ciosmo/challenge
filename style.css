@@ -57,6 +57,7 @@ main{
     margin-left: 5.5rem;
     width: 18rem;
     font-size: var(--fz-paragraph);
+
 }
 
 .primary-title{
@@ -90,6 +91,7 @@ main{
     position: relative;
     top: 1.5rem;
     left: 7rem;
+    font-weight: var(--primary-fw);
     color: var(--clr-bright-blue);
 }
 
