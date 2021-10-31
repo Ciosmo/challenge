@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    --primary-fw: 900;
+    --secondary-fw: 700;
+    --third-fw: 500;
+    --fz-paragraph:1rem;
+    --clr-bright-blue:hsl(245, 75%, 52%);
+    --clr-pale-blue: hsl(225, 100%, 94%);
+    --clr-dark-blue:hsl(223, 47%, 23%); 
+    --clr-very-pale: hsl(225, 100%, 98%);
+    --clr-desatured-blue:hsl(224, 23%, 55%);
+    background-image: url(assets/images/pattern-background-desktop.svg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+main{
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+
+    
+
+
+}
+.contenedor > img{
+    height: 13em;
+    width: 30em;
+    border-radius: 0.3em;
+    
+  
+ 
+}
+
+.container-text{
+    padding: 0 2em;
+    font-size: 1rem;
+    padding: 3em 0.3em 9em;
+    background-color: var(--clr-very-pale);
+    border-radius: 0.4em;
+}
+
+.container-text > p{
+    margin-left: 5.5rem;
+    width: 18rem;
+    font-size: var(--fz-paragraph);
+}
+
+.primary-title{
+
+    font-weight: var(--primary-fw);
+}
+.annual-plan{
+    display: flex;
+    justify-content: flex-start;
+    width: 20em;
+    background-color: var(--clr-very-pale);
+    font-weight: var(--secondary-fw);
+    margin-left: 5rem;
+}
+#title-plan{
+    margin-left: 1.5rem;
+}
+#pos-year{
+    position: relative;
+    right:9rem;
+    top: 3rem;
+}
+.annual-plan img{
+    
+    border-radius: 50%;
+    background-color: var(--clr-pale-blue);
+}
+.annual-plan a{
+    position: relative;
+    top: 1.5rem;
+    left: 7rem;
+    color: var(--clr-bright-blue);
+}
